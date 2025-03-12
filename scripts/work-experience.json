@@ -1,0 +1,29 @@
+[
+    {
+        "company": "Crowdstrike",
+        "title": "Software Engineer Intern",
+        "image": "images/crowdstrike.webp",
+        "alt": "CrowdStrike logo",
+        "description": "Developed an application that utilized scripts to facilitate the process of creating a testing environment, reducing testing setup times from 1-2 hours to a few seconds.",
+        "date": "June 2024 - September 2024",
+        "link": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+        "company": "wYne.ai",
+        "title": "Software Development Intern",
+        "image": "images/wyne.webp",
+        "alt": "wYne.ai Logo",
+        "description": "Developed an API that allowed real-time inventory tracking.",
+        "date": "June 2021 - Sept 2021",
+        "link": "https://www.instagram.com/choosewyne/"
+    },
+    {
+        "company": "Alan AI",
+        "title": "Software Engineering Intern",
+        "image": "images/alanai.webp",
+        "alt": "Alan AI logo",
+        "description": "Developed a task management app with AI voice commands.",
+        "date": "Jan 2020 - Aug 2020",
+        "link": "https://www.alan.app/"
+    }
+]
