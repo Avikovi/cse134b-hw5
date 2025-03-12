@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/A_pfp.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title> Avnish Kovi Portfolio</title>
+        <style>
+            my-highlight {
+                display: block;
+                border: 2px solid black;
+            }
+        </style>
+        <script>
+            console.log("Hello World from my custom element!");
+        </script>
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </label>
+        
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+                
+        <main>
+            <search>
+                <input type="text" placeholder="Search portfolio...">
+            </search>
+            <hgroup>
+                <h1>Hi, I'm Avnish!</h1>
+                <p>Aspiring Software Engineer &amp; Developer</p>
+            </hgroup>
+            <figure>
+                <img src="images/profilepic.jpg" alt="pfp">
+                <figcaption>I'm a <abbr title="Computer Science">CS</abbr> student at UCSD passionate about software development!</figcaption>
+            </figure>
+            <my-highlight>
+                Welcome to my portfolio! This site showcases my experience, skills, and background.
+            </my-highlight>
+            <aside>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="images/resume.pdf" download>Download My Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/avnish-kovi-8365a1160/" target="_blank">LinkedIn</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </aside>
+            <hello-world></hello-world>
+        </main>
+        <footer>
+            <p>&copy; 2025 Avnish Kovi. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

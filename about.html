@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>My Portfolio - About</title>
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-label">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </label>
+        
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>        
+
+        <main>
+            <h1>About Me</h1>
+            <template id="profile-card">
+                <p><strong>Name:</strong> Avnish Kovi</p>
+                <p><strong>Field:</strong> Software Development</p>
+            </template>
+            <p>I am a <span style="color:blue">Computer Science</span> student at <del>UC Merced</del> <del>UC Riverside</del> <ins>UC San Diego</ins>, expected to graduate in 2025. My journey in software development started with internships and hands-on coding experiences that allowed me to <em>work on real-world applications</em>.</p>
+            <blockquote>
+                <cite>"The best way to predict the future is to invent it."</cite> - Alan Kay
+            </blockquote>
+            <picture>
+                <source srcset="images/profilepic.jpg" media="(max-width: 600px)">
+                <img src="images/profilepic.jpg" alt="pfp">
+            </picture>
+            <audio controls>
+                <source src="images/intro_audio.mp3" type="audio/mpeg">
+                Browser does not support audio.
+            </audio>
+            <h3>This was the first ever coding video I watched.</h3>
+            <video controls width="320">
+                <source src="images/vid_python.mp4" type="video/mp4">
+                Browser does not support video.
+            </video>
+            <h2>Interests</h2>
+            <p>Software engineering, AI, web development, and mobile app development.</p>
+        </main>
+    </body>
+</html>
